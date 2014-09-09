@@ -42,6 +42,6 @@
     "coveralls": "2.10.0",
     "istanbul": "0.2.11",
     "zeriousify": "0.1.7",
-    "exam": "0.0.5"
+    "exam": "0.0.7"
   }
 }
