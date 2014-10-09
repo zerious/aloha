@@ -1,47 +1,33 @@
 {
   "name": "aloha",
-  "description": "Simple Node.js i18n",
-  "keywords": [
-    "aloha"
-  ],
   "version": "0.0.0",
-  "main": "aloha.js",
-  "homepage": "http://github.com/lighterio/aloha",
-  "repository": "http://github.com/lighterio/aloha.git",
-  "bugs": {
-    "url": "http://github.com/lighterio/aloha/issues"
-  },
-  "author": {
-    "name": "Sam Eubank",
-    "email": "sameubank@gmail.com"
-  },
-  "contributors": [
-    {
-      "name": "Sam Eubank",
-      "email": "sameubank@gmail.com"
-    }
-  ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/lighterio/aloha/blob/master/MIT-LICENSE.md"
-    }
-  ],
-  "engines": [
-    "node >= 0.2.6"
-  ],
-  "scripts": {
-    "test": "./node_modules/exam/exam.js",
-    "retest": "./node_modules/exam/exam.js --watch",
-    "cover": "istanbul cover ./node_modules/exam/exam.js",
-    "report": "open coverage/lcov-report/index.html",
-    "coveralls": "istanbul cover ./node_modules/exam/exam.js --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
-  },
+  "description": "Simple Node.js i18n",
   "dependencies": {},
   "devDependencies": {
     "coveralls": "2.10.0",
     "istanbul": "0.2.11",
-    "zeriousify": "0.1.7",
-    "exam": "0.0.7"
-  }
+    "zeriousify": "^0.1.10",
+    "exam": "^0.0.8"
+  },
+  "keywords": [
+    "aloha"
+  ],
+  "main": "aloha.js",
+  "engines": {
+    "node": ">=0.2.6"
+  },
+  "scripts": {
+    "test": "./node_modules/exam/exam.js",
+    "cover": "istanbul cover ./node_modules/exam/exam.js",
+    "report": "open coverage/lcov-report/index.html",
+    "coveralls": "istanbul cover ./node_modules/exam/exam.js --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
+  },
+  "repository": "https://github.com/lighterio/aloha.git",
+  "bugs": "https://github.com/lighterio/aloha/issues",
+  "homepage": "http://github.com/lighterio/aloha",
+  "author": "Sam Eubank <sameubank@gmail.com>",
+  "contributors": [
+    "Sam Eubank <sameubank@gmail.com>"
+  ],
+  "license": "MIT"
 }
