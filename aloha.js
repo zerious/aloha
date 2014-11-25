@@ -27,6 +27,6 @@ aloha.base = 'en-US';
  */
 Object.defineProperty(aloha, 'version', {
   get: function () {
-    return require('./package.json').version;
+    return require(__dirname + '/package.json').version;
   }
 });

@@ -18,6 +18,7 @@ npm install --save aloha
 
 Use it:
 ```
+// TODO: expose, dir, base
 ```
 
 

@@ -6,8 +6,7 @@
   "devDependencies": {
     "coveralls": "2.10.0",
     "istanbul": "0.2.11",
-    "zeriousify": "^0.1.10",
-    "exam": "^0.0.8"
+    "exam": "^0.1.6"
   },
   "keywords": [
     "aloha"
