@@ -7,8 +7,6 @@
 [![Support](https://img.shields.io/gratipay/Lighter.io.svg)](https://gratipay.com/Lighter.io/)
 
 
-## TL;DR
-
 Aloha is a simple Node.js internationalization module.
 
 Install it in your project:
