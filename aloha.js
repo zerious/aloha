@@ -13,11 +13,6 @@ aloha.expose = function (key) {
 };
 
 /**
- * Translations are stored in a directory.
- */
-aloha.dir = process.cwd() + '/translations';
-
-/**
  * The base language is United States English.
  */
 aloha.base = 'en-US';
@@ -30,3 +25,8 @@ Object.defineProperty(aloha, 'version', {
     return require(__dirname + '/package.json').version;
   }
 });
+
+/**
+ * Expose the location of this module.
+ */
+aloha.dir = __dirname;
